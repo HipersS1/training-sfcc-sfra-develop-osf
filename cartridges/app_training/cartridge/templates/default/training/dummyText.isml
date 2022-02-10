@@ -1,0 +1,3 @@
+<isset name = "textVar" value= "Text" scope = "session"/>
+
+${session.custom.textVar}

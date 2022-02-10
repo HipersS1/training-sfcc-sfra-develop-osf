@@ -1,0 +1,7 @@
+<!--- TEMPLATENAME: folder.isml --->
+<isinclude template="/components/modules" />
+<isloop items="${pdict.assets}" var="asset_id">
+   ${asset_id}
+   <p> item:  </p>
+   <iscontentasset aid="${asset_id}"/>
+</isloop>

@@ -1,0 +1,2 @@
+<isinclude url="${URLUtils.https('RenderTemplate')}"/>
+${session.custom.textVar}

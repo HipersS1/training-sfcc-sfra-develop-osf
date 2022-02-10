@@ -1,0 +1,12 @@
+<isset name = "sessionVar" value= "${pdict.string}" scope = "session"/>
+<isset name = "sessionVar2" value= "${1}" scope = "request"/>
+<isset name = "sessionVar3" value= "Something" scope = "page"/>
+<isset name = "sessionVar4" value= "${false}" scope = "session"/>
+<isset name = "sessionVar5" value= "This is my text." scope = "session"/>
+
+${session.custom.sessionVar}<br/>
+${request.custom.sessionVar2}<br/>
+${sessionVar3}<br/>
+${session.custom.sessionVar4}<br/>
+${session.custom.sessionVar5}<br/>
+${request.custom.sessionVar2 + 1}
